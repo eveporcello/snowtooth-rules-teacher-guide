@@ -1,6 +1,6 @@
-# Lab · Snowtooth Copy Rule
+# Build together · Snowtooth copy rule
 
-> `main` or `checkpoint` if you fell behind · new Agent chat · about 4 minutes
+> Follow along. About 2 minutes live. Redo it later if you want. `main`, or `checkpoint` if you fell behind.
 
 It's your first week on the Snowtooth lift board team. Marketing just emailed: guests call them **runs**, never "trails," and every status shows up in a `<StatusBadge>`, never a hand-styled span.
 

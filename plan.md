@@ -2,6 +2,8 @@
 
 15-minute workshop. Professional developers, first or second week of Cursor seats. They already ship React. They do not need a feature tour. They need the habit that stops the agent from arguing with team conventions.
 
+**How it runs.** You demo the data rule (miss, write, new chat, commit). Then two minutes building the copy rule together: you drive, they name the do and don't. The handout is the take-home, not silent lab time.
+
 ## What people leave able to do
 
 1. Spot a repeated agent miss as a missing rule, not a bad prompt.
