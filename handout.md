@@ -12,7 +12,7 @@ It's your first week on the Snowtooth lift board team. Marketing just emailed: g
 
    Read the diff. Does it say "trails" anywhere a guest will see? Does it use `StatusBadge`?
 
-2. Restore the Checkpoint (don't `git checkout` unless you have to). Write `.cursor/rules/snowtooth-copy.mdc` — or type `/create-rule` and dictate it. You want a description, one do, one don't, and a pointer to `@components/StatusBadge.tsx`.
+2. Restore the Checkpoint (don't `git checkout` unless you have to). Write `.cursor/rules/snowtooth-copy.mdc`, or type `/create-rule` and dictate it. You want a description, one do, one don't, and a pointer to `@components/StatusBadge.tsx`.
 
 3. **New chat.** Same prompt. Check the diff again.
 

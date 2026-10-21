@@ -1,6 +1,6 @@
 # Demo runbook
 
-Start on `main`. Dev server running. A **new** Agent chat. This tab is only for the demo — do not reuse a chat that already saw the correction.
+Start on `main`. Dev server running. A **new** Agent chat. This tab is only for the demo. Do not reuse a chat that already saw the correction.
 
 Record a 90-second fallback of steps 2–6 before you teach, in case live Agent goes sideways.
 
@@ -30,13 +30,13 @@ Fell behind, or Agent goes off the rails: `git stash && git checkout checkpoint`
    ```
 
 2. Read the diff out loud. It will usually copy `LiftBoard`: `fetch("https://snowtooth-api-rest.fly.dev/lifts")`, no `getTrails()`.
-3. Tip: *same prompt, new chat* is the test. Continuing this thread would cheat — the model still has your correction in context.
+3. Tip: *same prompt, new chat* is the test. Continuing this thread would cheat. The model still has your correction in context.
 4. Restore the Checkpoint (or discard the agent change). Do not `git checkout` unless you have to.
 5. In a new chat, `/create-rule`. Dictate:
 
    > Project rule. Always apply. All Snowtooth data comes from `@/lib/snowtooth`. Never fetch in a component. One do: `await getTrails()`. One don’t: `fetch` the REST URL. Point at `@lib/snowtooth.ts`.
 
-6. Open the `.mdc`. Check three things: a description, a do and a don’t in real code, an `@` pointer — not a pasted copy of the client.
+6. Open the `.mdc`. Check three things: a description, a do and a don’t in real code, an `@` pointer, not a pasted copy of the client.
 7. **New chat.** Same prompt as step 1. It should call `getTrails()`. Point at the rule pill so they see *why*.
 8. Optional second prompt, only if you have time: `Add the grooming report too.` Same client.
 9. Commit the rule. Say this: a rule on your machine is a preference. A rule in git is how the team gets it tomorrow.
