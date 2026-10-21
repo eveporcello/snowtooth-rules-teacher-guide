@@ -19,7 +19,7 @@ Fell behind, or Agent goes off the rails: `git stash && git checkout checkpoint`
 
 **0:00-1:00 · Open.** Snowtooth is a stand-in for their repo. The board is what guests see on the lodge TVs. First week on the team. Cursor has never heard our conventions.
 
-**1:00-2:00 · The Monday problem.** You've already typed "use the data client, don't fetch in components" twice this week. Closing the chat wipes it. A teammate never saw it.
+**1:00-2:00 · You keep typing the same correction.** "Use the data client, don't fetch in components." You close the tab. Tomorrow the agent does it again. Your teammate never saw it.
 
 **2:00-8:00 · Live miss, then the rule.** You drive. Get all the way to the commit.
 
@@ -58,7 +58,7 @@ Do not wait for anyone to type. The handout is the take-home.
 
 **10:00-13:00 · Pocket card.** Rule-or-not table. Tab does not read rules. Skills are for a whole routine, not a sentence. Say out loud: why new chat, why LiftBoard stays broken.
 
-**13:00-15:00 · Monday.** Pick one thing you've said twice. Make it a rule before standup.
+**13:00-15:00 · Take it with you.** Pick one thing you've already had to say twice. Make it a rule.
 
 ## If this happens
 
