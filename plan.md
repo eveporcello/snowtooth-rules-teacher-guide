@@ -1,34 +1,34 @@
 # Snowtooth Rules
 
-15-minute workshop. Professional developers, first or second week of Cursor seats. They already ship React. They do not need a feature tour. They need the habit that stops the agent from arguing with team conventions.
+This is a 15-minute workshop for developers who are a week or two into using Cursor. They already know React, so I'm not going to walk them through features. What I want them to leave with is one habit: when the agent keeps getting a team convention wrong, write it down as a rule instead of correcting it again.
 
-**How it runs.** You demo the data rule (miss, write, new chat, commit). Then two minutes building the copy rule together: you drive, they name the do and don't. The handout is the take-home, not silent lab time.
+## How the session runs
 
-## What people leave able to do
+I'll demo the data rule from start to finish: show the agent getting it wrong, write the rule, open a new chat to prove it works, and commit it. Then we spend about two minutes writing the copy rule together. I'm still the one typing, but the room tells me what the do and don't should be. The handout is for later, not quiet lab time.
 
-1. Spot a repeated agent miss as a missing rule, not a bad prompt.
-2. Write a project rule with a description, one do, one don’t, and an `@` pointer to the real file.
-3. Prove it in a **new chat** with the same prompt, then commit it so the next teammate gets it.
+## What people should be able to do afterward
 
-Done looks like: a fresh chat produces an **Open Runs** panel that uses `<StatusBadge>`.
+1. Notice when the agent makes the same mistake twice, and recognize that the fix is usually a missing rule, not a better prompt.
+2. Write a project rule with a description, one do, one don't, and an `@` pointer to the real file.
+3. Test it in a new chat with the same prompt, then commit it so the rest of the team gets it too.
 
-## What we skip
+By the end, a fresh chat should produce an Open Runs panel that uses `<StatusBadge>`.
 
-This is 15 minutes. One loop: miss → encode → new chat → commit.
+## What we're leaving out
 
-| We skip | Why |
-| --- | --- |
-| Skills | A skill is a workflow. “Guests say runs” is a constraint. That’s a later session. |
-| User rules, Team rules, `AGENTS.md` | Same idea, different scope. One repo-local rule is enough today. |
-| Plan, Ask, Tab, Browser, Bugbot | Different jobs. Today is “make the next chat behave.” |
-| Fixing `LiftBoard` | Left broken on purpose. Rules are for next time, not a legacy rewrite. |
-| Apply Intelligently as the live path | Too flaky live. We set `alwaysApply: true` and name the tradeoff. |
+Fifteen minutes is enough for one pass through the loop, so a lot stays out:
 
-## How you know it worked
+- **Skills.** A skill is a whole workflow. "Guests say runs" is just a constraint. Skills get their own session.
+- **User rules, Team rules, and `AGENTS.md`.** Same idea at a different scope. One project rule is plenty for today.
+- **Plan, Ask, Tab, Browser, and Bugbot.** All useful, but they solve different problems. Today is only about getting the next chat to behave.
+- **Fixing `LiftBoard`.** It stays broken on purpose. Rules shape what the agent writes next. They aren't a reason to rewrite old code.
+- **Apply Intelligently.** It's too unpredictable to rely on live, so I'll use `alwaysApply: true` and mention the tradeoff.
 
-**In the room.** The diff says “Open Runs” and uses `StatusBadge`.
+## How I'll know it worked
 
-**Next week.**
+During the session, the diff says "Open Runs" and uses `StatusBadge`.
+
+A week later:
 
 - The team has committed at least one file under `.cursor/rules/`.
-- The next feature request is not preceded by “remember, we say runs.”
+- Nobody has to start a feature request with "remember, we say runs."
