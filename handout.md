@@ -73,6 +73,12 @@ Fell behind? Run `git stash && git checkout checkpoint`. That branch already has
 
 Write one more rule on your own. Pick something you've had to tell an agent twice, at work or here in Snowtooth. If you need an idea: every time a guest sees should be shown in Mountain Time, using `formatMountainTime()` from `lib/time.ts`.
 
+To test a Mountain Time rule, try:
+
+```
+Add a panel that shows when each run was last groomed.
+```
+
 Write the rule, test it with the same prompt in a new chat, and paste your rule into the chat so we can see what you built.
 
 ## Extra credit: break it on purpose
