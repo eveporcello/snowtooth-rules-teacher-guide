@@ -4,7 +4,9 @@ This is a 15-minute workshop for developers who are a week or two into using Cur
 
 ## How the session runs
 
-I'll demo the data rule from start to finish: show the agent getting it wrong, write the rule, open a new chat to prove it works, and commit it. Then we spend about two minutes writing the copy rule together. I'm still the one typing, but the room tells me what the do and don't should be. The handout is for later, not quiet lab time.
+The repo is the only thing people need. We start by having everyone clone it and open it in Cursor, then we run the loop together, each person in their own editor: send a prompt, watch the agent get a convention wrong, write a rule, open a new chat to prove it works, and commit it. I share my screen and do each step first so nobody gets lost.
+
+We go through it twice. The first time, for the data rule, I walk the room through every step. The second time, for the copy rule, people do it themselves, and the room decides what the do and don't should be. Anyone who falls behind can switch to the `checkpoint` branch and pick up from there.
 
 ## What people should be able to do afterward
 
@@ -16,17 +18,18 @@ By the end, a fresh chat should produce an Open Runs panel that uses `<StatusBad
 
 ## What we're leaving out
 
-Fifteen minutes is enough for one pass through the loop, so a lot stays out:
+Fifteen minutes only has room for this one loop, so a lot stays out:
 
 - **Skills.** A skill is a whole workflow. "Guests say runs" is just a constraint. Skills get their own session.
 - **User rules, Team rules, and `AGENTS.md`.** Same idea at a different scope. One project rule is plenty for today.
 - **Plan, Ask, Tab, Browser, and Bugbot.** All useful, but they solve different problems. Today is only about getting the next chat to behave.
 - **Fixing `LiftBoard`.** It stays broken on purpose. Rules shape what the agent writes next. They aren't a reason to rewrite old code.
+- **Running the app.** The agent's mistakes show up in the diff, so nobody needs `npm install` or a dev server. That's one less thing to go wrong in the first two minutes.
 - **Apply Intelligently.** It's too unpredictable to rely on live, so I'll use `alwaysApply: true` and mention the tradeoff.
 
 ## How I'll know it worked
 
-During the session, the diff says "Open Runs" and uses `StatusBadge`.
+During the session, people drop a 🎿 in chat when a fresh chat builds a panel headed "Open Runs" that uses `StatusBadge`. I'd want most of the room there by the 11-minute mark. Anyone who isn't tells me where the steps were unclear.
 
 A week later:
 
