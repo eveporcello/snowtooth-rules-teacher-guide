@@ -1,4 +1,4 @@
-# Demo runbook
+# Demo Overview
 
 Start on `main` with the dev server running and a brand-new Agent chat. Use that chat only for the demo. A chat that has already seen the correction will cheat.
 
