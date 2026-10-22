@@ -27,7 +27,7 @@ git clone https://github.com/eveporcello/snowtooth-rules.git
 
 Tell them to open the folder in Cursor and stay on `main`. They don't need `npm install`.
 
-While people clone, tell the story. Snowtooth stands in for their own repo, and the board is what guests see on the TVs in the lodge. It's your first week on the team, and you keep typing the same correction: "Use the data client, don't fetch in components." You close the tab, and the next day the agent does it again. Your teammate never saw the correction at all.
+While people clone, tell the story. Snowtooth stands in for their own repo, and the board is what guests see on the TVs in the lodge. It's your first week working at Snowtooth Mountain, and you keep typing the same correction: "Use the data client, don't fetch in components." You close the tab, and the next day the agent does it again. Your teammate never saw the correction at all.
 
 ### 2:00-8:00: The data rule, together
 

@@ -14,7 +14,7 @@ Clone it rather than downloading the ZIP. You'll commit your rules, and you'll w
 
 ## The story
 
-It's your first week on the Snowtooth lift board team. The board is what guests see on the TVs in the lodge and on their phones. The team has two conventions Cursor doesn't know about yet:
+It's your first week working at Snowtooth Mountain. Your team builds the lift board that guests see on the TVs in the lodge and on their phones, and it has two conventions Cursor doesn't know about yet:
 
 - All data comes from the client in `lib/snowtooth.ts`. Components never call `fetch` directly.
 - Guests call them **runs**, never "trails," and every status is shown with `<StatusBadge>`.
