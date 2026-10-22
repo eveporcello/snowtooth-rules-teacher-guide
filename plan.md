@@ -1,12 +1,20 @@
 # Snowtooth Rules
 
-This is a 15-minute workshop for developers who are a week or two into using Cursor. They already know React, so I'm not going to walk them through features. What I want them to leave with is one habit: when the agent keeps getting a team convention wrong, write it down as a rule instead of correcting it again.
+This is a 15-minute workshop for developers who are a week or two into using Cursor. What I want them to leave with is one habit: when the agent keeps getting a team convention wrong, write it down as a rule instead of correcting it again.
 
 ## How the session runs
 
-The repo is the only thing people need. We start by having everyone clone it and open it in Cursor, then we run the loop together, each person in their own editor: send a prompt, watch the agent get a convention wrong, write a rule, open a new chat to prove it works, and commit it. I share my screen and do each step first so nobody gets lost.
+Everyone works in their own copy of the repo while I share my screen.
 
-We go through it twice. The first time, for the data rule, I walk the room through every step. The second time, for the copy rule, people do it themselves, and the room decides what the do and don't should be. Anyone who falls behind can switch to the `checkpoint` branch and pick up from there.
+| Time | Segment | What happens |
+| --- | --- | --- |
+| 0:00-2:00 | Get the repo | Everyone clones it and opens it in Cursor while I set up the story. |
+| 2:00-8:00 | Data rule, together | I do each step first and the room follows: see the miss, write the rule, test it in a new chat, commit. |
+| 8:00-11:00 | Copy rule, on their own | The room names the do and don't, then everyone runs the loop. 🎿 in chat when it works. |
+| 11:00-13:00 | Should it be a rule? | Walk through when to use a rule, a linter, or globs. |
+| 13:00-15:00 | Challenge | Everyone writes one rule on their own and pastes it into chat. |
+
+Anyone who falls behind switches to the `checkpoint` branch and picks up at the copy rule.
 
 ## What people should be able to do afterward
 
