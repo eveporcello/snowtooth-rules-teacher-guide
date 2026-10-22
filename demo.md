@@ -19,6 +19,8 @@ Start a brand-new Agent chat that's only for the demo. A chat that has already s
 
 ### 0:00-2:00: Get the repo, set the scene
 
+Open on the trail map slide and welcome everyone to their first day at Snowtooth Mountain. Say "runs," never "trails." It pays off in the copy rule later.
+
 Paste the clone command and the link to `workshop/handout.md` into chat right away:
 
 ```
