@@ -1,15 +1,15 @@
 # Snowtooth Rules
 
-This is a 15-minute workshop for developers who are a week or two into using Cursor. What I want them to leave with is one habit: when the agent keeps getting a team convention wrong, write it down as a rule instead of correcting it again.
+This is a 15-minute workshop for developers who are a week or two into using Cursor. We want them to leave with one habit: when the agent keeps getting a team convention wrong, write it down as a rule instead of correcting it again.
 
 ## How the session runs
 
-Everyone works in their own copy of the repo while I share my screen.
+Everyone works in their own copy of the repo while we follow along on a shared screen.
 
 | Time | Segment | What happens |
 | --- | --- | --- |
-| 0:00-2:00 | Get the repo | Everyone clones it and opens it in Cursor while I set up the story. |
-| 2:00-8:00 | Data rule, together | I do each step first and the room follows: see the miss, write the rule, test it in a new chat, commit. |
+| 0:00-2:00 | Get the repo | Everyone clones it and opens it in Cursor while we set up the story. |
+| 2:00-8:00 | Data rule, together | We go step by step, with each step shown on screen first: see the miss, write the rule, test it in a new chat, commit. |
 | 8:00-11:00 | Copy rule, on their own | The room names the do and don't, then everyone runs the loop. 🎿 in chat when it works. |
 | 11:00-13:00 | Should it be a rule? | Walk through when to use a rule, a linter, or globs. |
 | 13:00-15:00 | Challenge | Everyone writes one rule on their own and pastes it into chat. |
@@ -33,12 +33,12 @@ Fifteen minutes only has room for this one loop, so a lot stays out:
 - **Plan, Ask, Tab, Browser, and Bugbot.** All useful, but they solve different problems. Today is only about getting the next chat to behave.
 - **Fixing `LiftBoard`.** It stays broken on purpose. Rules shape what the agent writes next. They aren't a reason to rewrite old code.
 - **Running the app.** The agent's mistakes show up in the diff, so nobody needs `npm install` or a dev server. That's one less thing to go wrong in the first two minutes.
-- **Apply Intelligently.** It's too unpredictable to rely on live, so I'll use `alwaysApply: true` and mention the tradeoff.
+- **Apply Intelligently.** It's too unpredictable to rely on live, so we use `alwaysApply: true` and talk through the tradeoff.
 
-## How I'll know it worked
+## How we'll know it worked
 
 At the end, everyone gets a small challenge: write one rule on their own and paste it into chat. It can be for something they've had to tell an agent twice at work, or something in the Snowtooth repo. Anyone who's stuck can use the Mountain Time convention in `lib/time.ts`, which doesn't have a rule yet.
 
-What people post tells me whether the session worked. If their rules have a description, a do and a don't, and a pointer to a real file, they can write one without me walking them through it. If the conventions they picked are the kind of thing a rule is good for, they understood when to reach for one.
+What people post tells us whether the session worked. If their rules have a description, a do and a don't, and a pointer to a real file, they can write one without being walked through it. If the conventions they picked are the kind of thing a rule is good for, they understood when to reach for one.
 
-Along the way, the 🎿 posts during Part 2 tell me whether people are keeping up.
+Along the way, the 🎿 posts during Part 2 tell us whether people are keeping up.
