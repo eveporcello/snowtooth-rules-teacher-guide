@@ -69,6 +69,12 @@ You're done when a fresh chat builds a panel headed "Open Runs" that uses `Statu
 
 Fell behind? Run `git stash && git checkout checkpoint`. That branch already has the data rule, so you can go straight to Part 2. The `complete` branch has both rules if you want to compare yours.
 
+## Your challenge
+
+Write one more rule on your own. Pick something you've had to tell an agent twice, at work or here in Snowtooth. If you need an idea: every time a guest sees should be shown in Mountain Time, using `formatMountainTime()` from `lib/time.ts`.
+
+Write the rule, test it with the same prompt in a new chat, and paste your rule into the chat so we can see what you built.
+
 ## Extra credit: break it on purpose
 
 - Replace your rule with `Write good, consistent code.` and run the prompt again. What changed, and why?

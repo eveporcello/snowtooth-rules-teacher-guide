@@ -29,9 +29,8 @@ Fifteen minutes only has room for this one loop, so a lot stays out:
 
 ## How I'll know it worked
 
-During the session, people drop a 🎿 in chat when a fresh chat builds a panel headed "Open Runs" that uses `StatusBadge`. I'd want most of the room there by the 11-minute mark. Anyone who isn't tells me where the steps were unclear.
+At the end, everyone gets a small challenge: write one rule on their own and paste it into chat. It can be for something they've had to tell an agent twice at work, or something in the Snowtooth repo. Anyone who's stuck can use the Mountain Time convention in `lib/time.ts`, which doesn't have a rule yet.
 
-A week later:
+What people post tells me whether the session worked. If their rules have a description, a do and a don't, and a pointer to a real file, they can write one without me walking them through it. If the conventions they picked are the kind of thing a rule is good for, they understood when to reach for one.
 
-- The team has committed at least one file under `.cursor/rules/`.
-- Nobody has to start a feature request with "remember, we say runs."
+Along the way, the 🎿 posts during Part 2 tell me whether people are keeping up.

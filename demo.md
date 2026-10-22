@@ -53,9 +53,11 @@ Ask for a 🎿 in chat when a fresh chat builds "Open Runs" with `StatusBadge`, 
 
 Walk through the "Should it be a rule?" table. Mention that Tab doesn't read rules, and that skills are for a whole routine, not a single sentence. Say out loud why we keep opening new chats and why `LiftBoard` stays broken.
 
-### 13:00-15:00: Send them off
+### 13:00-15:00: The challenge
 
-Ask everyone to pick one thing they've already had to tell the agent twice and turn it into a rule in their own repo.
+Give everyone one rule to write on their own. It can be for something they've had to tell an agent twice at work, or something in Snowtooth. If they're stuck, suggest Mountain Time: every time a guest sees should go through `formatMountainTime()` in `lib/time.ts`, and nothing enforces that yet.
+
+Ask them to paste their rule into chat once they've tested it. Those posts are how you know the session worked. Read a couple out loud: does each one have a description, a do and a don't, and a pointer to a real file? Did people pick something a rule is actually good for?
 
 ## If something goes wrong
 
