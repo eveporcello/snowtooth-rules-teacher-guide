@@ -18,9 +18,9 @@ Anyone who falls behind switches to the `checkpoint` branch and picks up at the 
 
 ## What people should be able to do afterward
 
-1. Tell the difference between a convention the code already shows the agent and one that only lives in the team's heads, and write rules only for the second kind.
-2. Write a project rule with a description, one do, one don't, and an `@` pointer to the real file.
-3. Test it in a new chat with the same prompt, then commit it so the rest of the team gets it too.
+1. Write a project rule with a description, one do, one don't, and an `@` pointer to the real file.
+2. Test it in a new chat with the same prompt, then commit it so the rest of the team gets it too.
+3. Explain the reasoning behind what should be in a rule and criteria for creating rules.
 
 By the end, a fresh chat should produce an Open Runs panel that uses `<StatusBadge>`.
 
