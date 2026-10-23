@@ -1,6 +1,6 @@
 # Demo Overview
 
-Everyone follows along in their own copy of the repo. You share your screen, do each step first, and give the room a few seconds to catch up before moving on. Learners have the same steps in `workshop/handout.md`. This page has every step plus your side of it.
+Everyone follows along in their own copy of the repo. You share your screen, do each step first, and give the room a few seconds to catch up before moving on. Learners have the same steps in `handout.md`, which you share with them. It isn't in the student repo. This page has every step plus your side of it.
 
 Before the session:
 
@@ -21,7 +21,7 @@ Start a brand-new Agent chat that's only for the demo. A chat that has already s
 
 Open on the trail map slide and welcome everyone to their first day at Snowtooth Mountain. Say "runs," never "trails." It pays off in the copy rule later.
 
-Paste the clone command and the link to `workshop/handout.md` into chat right away:
+Paste the clone command and the contents of `handout.md` into chat right away:
 
 ```
 git clone https://github.com/eveporcello/snowtooth-rules.git
