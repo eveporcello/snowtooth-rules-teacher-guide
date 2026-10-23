@@ -1,6 +1,6 @@
 # Snowtooth Rules
 
-This is a 15-minute workshop for developers who are new to using Cursor. We want them to leave with one habit: when the agent keeps getting a team convention wrong, write it down as a rule instead of correcting it again.
+This is a 15-minute workshop for professional developers who are new to Cursor. They already know git, React, and code review. They've used the Agent a little, and they've had to correct it more than once. We want them to leave with one habit: when the agent keeps getting a team convention wrong, write it down as a rule instead of correcting it again. And just as important, know when a rule isn't needed.
 
 ## How the session runs
 
@@ -9,16 +9,16 @@ Everyone works in their own copy of the repo while we follow along on a shared s
 | Time | Segment | What happens |
 | --- | --- | --- |
 | 0:00-2:00 | Get the repo | Everyone clones it and opens it in Cursor while we set up the story. |
-| 2:00-8:00 | Data rule, together | We go step by step, with each step shown on screen first: see the miss, write the rule, test it in a new chat, commit. |
-| 8:00-11:00 | Copy rule, on their own | The room names the do and don't, then everyone runs the loop. 🎿 in chat when it works. |
-| 11:00-13:00 | Should it be a rule? | Walk through when to use a rule, a linter, or globs. |
-| 13:00-15:00 | Challenge | Everyone writes one rule on their own and pastes it into chat. |
+| 2:00-4:00 | See what the agent knows | One prompt. The agent loads data the right way because the code explains it, and writes "Trails" because nothing says guests call them runs. |
+| 4:00-10:00 | Write the rule, together | Step by step, each step shown on screen first: reset, write the rule, test it in a new chat, commit. 🎿 in chat when it works. |
+| 10:00-12:00 | Should it be a rule? | When to use a rule, a linter, globs, or nothing at all. |
+| 12:00-15:00 | Challenge | Everyone writes one rule on their own and pastes it into chat. |
 
-Anyone who falls behind switches to the `checkpoint` branch and picks up at the copy rule.
+Anyone who falls behind switches to the `checkpoint` branch and picks up at the challenge.
 
 ## What people should be able to do afterward
 
-1. Notice when the agent makes the same mistake twice, and recognize that the fix is usually a missing rule, not a better prompt.
+1. Tell the difference between a convention the code already shows the agent and one that only lives in the team's heads, and write rules only for the second kind.
 2. Write a project rule with a description, one do, one don't, and an `@` pointer to the real file.
 3. Test it in a new chat with the same prompt, then commit it so the rest of the team gets it too.
 
@@ -28,6 +28,8 @@ By the end, a fresh chat should produce an Open Runs panel that uses `<StatusBad
 
 Fifteen minutes only has room for this one loop, so a lot stays out:
 
+- **A rule for the data client.** The first draft had people write "never fetch in a component." In rehearsal, the agent used `getTrails()` every time, because `lib/snowtooth.ts` says how data works. A rule that fixes nothing teaches the wrong lesson, so we kept the moment and turned it into the point: the code already said it.
+- **Restore Checkpoint.** It only shows up when you hover over an earlier message, and people lose minutes hunting for it on a call. `git stash -u` resets everyone the same way and is a habit they already have.
 - **Skills.** A skill is a whole workflow. Skills get their own session.
 - **User rules, Team rules, and `AGENTS.md`.** Same idea at a different scope. One project rule is plenty for today.
 - **Plan, Ask, Tab, Browser, and Bugbot.** All useful, but they solve different problems. Today is only about getting the next chat to behave.
@@ -39,8 +41,8 @@ Fifteen minutes only has room for this one loop, so a lot stays out:
 
 ## How we'll know it worked
 
-At the end, everyone gets a small challenge: write one rule on their own and paste it into chat. It can be for something they've had to tell an agent twice at work, or something in the Snowtooth repo. Anyone who's stuck can use the Mountain Time convention in `lib/time.ts`, which doesn't have a rule yet.
+At the end, everyone gets a small challenge: write one rule on their own and paste it into chat. It can be for something they've had to tell an agent twice at work, or something in Snowtooth. Anyone who's stuck can use the difficulty convention: guests read the trail map symbols, never the words.
 
-What people post tells us whether the session worked. If their rules have a description, a do and a don't, and a pointer to a real file, they can write one without being walked through it. If the conventions they picked are the kind of thing a rule is good for, they understood when to reach for one.
+What people post tells us whether the session worked. If their rules have a description, a do and a don't, and a pointer to a real file, they can write one without being walked through it. If they picked something the code couldn't have told the agent, they understood when to reach for a rule.
 
 Along the way, the 🎿 posts during Part 2 tell us whether people are keeping up.

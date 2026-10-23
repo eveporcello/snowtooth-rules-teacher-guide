@@ -14,5 +14,5 @@ Facilitator materials for the Snowtooth Rules workshop. Students work in [snowto
 | Branch | What you get |
 | --- | --- |
 | `main` | Start here. One lift board. No project rules yet. |
-| `checkpoint` | Mid-point. Data rule, trails panel, grooming report. |
-| `complete` | Done. Copy rule and the Open Runs panel. |
+| `checkpoint` | Part 1 done. Copy rule and the Open Runs panel. |
+| `complete` | One challenge answer. Difficulty rule, `DifficultyIcon`, and a Runs panel. |
