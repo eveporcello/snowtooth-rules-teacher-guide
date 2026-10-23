@@ -5,7 +5,6 @@ Everyone follows along in their own copy of the repo. You share your screen, do 
 Before the session:
 
 - Put the repo link in the invite: https://github.com/eveporcello/snowtooth-rules. Anyone who clones early saves a minute.
-- Record a 90-second fallback of Part 1 in case your own agent doesn't cooperate live.
 
 ## Setup
 
