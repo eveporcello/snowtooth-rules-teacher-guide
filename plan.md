@@ -1,6 +1,6 @@
 # Snowtooth Rules
 
-This is a 15-minute workshop for developers who are a week or two into using Cursor. We want them to leave with one habit: when the agent keeps getting a team convention wrong, write it down as a rule instead of correcting it again.
+This is a 15-minute workshop for developers who are new to using Cursor. We want them to leave with one habit: when the agent keeps getting a team convention wrong, write it down as a rule instead of correcting it again.
 
 ## How the session runs
 
@@ -28,10 +28,10 @@ By the end, a fresh chat should produce an Open Runs panel that uses `<StatusBad
 
 Fifteen minutes only has room for this one loop, so a lot stays out:
 
-- **Skills.** A skill is a whole workflow. "Guests say runs" is just a constraint. Skills get their own session.
+- **Skills.** A skill is a whole workflow. Skills get their own session.
 - **User rules, Team rules, and `AGENTS.md`.** Same idea at a different scope. One project rule is plenty for today.
 - **Plan, Ask, Tab, Browser, and Bugbot.** All useful, but they solve different problems. Today is only about getting the next chat to behave.
-- **Fixing `LiftBoard`.** It stays broken on purpose. Rules shape what the agent writes next. They aren't a reason to rewrite old code.
+- **Fixing `LiftBoard`.** Rules shape what the agent writes next. They aren't a reason to rewrite old code.
 - **Running the app.** The agent's mistakes show up in the diff, so nobody needs `npm install` or a dev server. That's one less thing to go wrong in the first two minutes.
 - **Apply Intelligently.** It's too unpredictable to rely on live, so we use `alwaysApply: true` and talk through the tradeoff.
 
