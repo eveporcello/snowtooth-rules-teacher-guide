@@ -33,6 +33,7 @@ Fifteen minutes only has room for this one loop, so a lot stays out:
 - **Plan, Ask, Tab, Browser, and Bugbot.** All useful, but they solve different problems. Today is only about getting the next chat to behave.
 - **Fixing `LiftBoard`.** Rules shape what the agent writes next. They aren't a reason to rewrite old code.
 - **Running the app.** The agent's mistakes show up in the diff, so nobody needs `npm install` or a dev server. That's one less thing to go wrong in the first two minutes.
+- **A student website.** We built a landing page at [snowtooth-mountain.vercel.app](https://snowtooth-mountain.vercel.app/), but handing people a site and a repo is one link too many. The repo already has the handout, so it's the only thing we share.
 - **Apply Intelligently.** It's too unpredictable to rely on live, so we use `alwaysApply: true` and talk through the tradeoff.
 
 ## How we'll know it worked
